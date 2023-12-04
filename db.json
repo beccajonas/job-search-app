@@ -7,8 +7,8 @@
       "dateApplied": "2023-01-15",
       "status": "Interview scheduled 🗓",
       "jobDescription": "https://example.com/full-stack-developer-job-description",
-      "notes": "Notes. Notes. Notes. Notes. Notes.",
-      "favorite": false,
+      "notes": "More notes, and more notes!!!",
+      "favorite": true,
       "id": 1
     },
     {
@@ -54,6 +54,28 @@
       "notes": "Notes notes",
       "favorite": true,
       "id": 5
+    },
+    {
+      "jobTitle": "Job Test 2",
+      "company": "Company Test",
+      "location": "In Person 🏢",
+      "jobDescription": "example.com",
+      "dateApplied": "2023-12-13",
+      "status": "Interview scheduled 🗓",
+      "notes": "Notes. Found on LinkedIn.",
+      "favorite": false,
+      "id": 6
+    },
+    {
+      "jobTitle": "Job Test 2",
+      "company": "Company Test",
+      "location": "In Person 🏢",
+      "jobDescription": "example.com",
+      "dateApplied": "2023-12-13",
+      "status": "Interview scheduled 🗓",
+      "notes": "Notes. Found on LinkedIn.",
+      "favorite": true,
+      "id": 7
     },
     {
       "jobTitle": "Job Test",

@@ -10,7 +10,7 @@ function JobListContainer() {
         fetch("http://localhost:3000/jobs")
         .then(r => r.json())
         .then(jobsData => {
-            console.log(jobsData)
+            // console.log(jobsData)
             setJobs(jobsData)
         })
     }, []);
