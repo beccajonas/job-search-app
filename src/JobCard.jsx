@@ -26,14 +26,17 @@ function JobCard({ jobs, onDelete }) {
 
   function handleJobTitle(e) {
     setJobTitle(e.target.value)
+    handleUpdate({jobTitle: e.target.value})
   };
 
   function handleCompanyChange(e) {
    setCompany(e.target.value)
+   handleUpdate({company: e.target.value})
   };
 
   function handleWorklocation(e) {
     setWorkLocation(e.target.value)
+    handleUpdate({workLocation: e.target.value})
   };
 
   function handleStatusSelect(selected) {
