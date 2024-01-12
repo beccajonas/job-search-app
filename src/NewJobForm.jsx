@@ -199,7 +199,7 @@ function NewJobForm() {
       {showSuccessAlert && (
         <div className='success-alert'>
           <p>Your job has been added!</p>
-          <a href="./jobs">See post</a>
+          <a href="/jobs">See post</a>
         </div>
       )}
     </div>
