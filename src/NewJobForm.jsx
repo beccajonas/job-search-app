@@ -199,7 +199,6 @@ function NewJobForm() {
       {showSuccessAlert && (
         <div className='success-alert'>
           <p>Your job has been added!</p>
-          <a href="https://65a19b6dc1eb710008df98d4--stupendous-brigadeiros-12667f.netlify.app/jobs">See post</a>
         </div>
       )}
     </div>
