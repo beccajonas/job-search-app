@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -11,21 +11,32 @@ function Home() {
         <h2>A place to track and manage your job applications efficiently.</h2>
       </div>
       <div className="section">
-        <p><strong>Key Features:</strong></p>
-        <ul>
-          <li>Organize and categorize your job applications</li>
-          <li>Update and track the status of each application</li>
-          <li>Save useful articles for future reference</li>
-        </ul>
-      </div>
-      <div className="section">
         <p>Start your journey toward landing your dream job today!</p>
       </div>
-      <div className="button-section">
-        <Link to="/add-job" className="get-started-button">Get Started</Link>
+      <form className='section'>
+          <h2>Login</h2>
+
+          <input type="text"
+          // onChange={handleChangeUsername}
+          // value={name}
+          placeholder='Name'
+          />
+
+          <input type="text"
+          // onChange={handleChangePassword}
+          // value={password}
+          placeholder='Password'
+          />
+
+          <input type="submit"
+          value='Login'
+          />
+
+          </form>
+          <></>
       </div>
-    </div>
   );
 }
 
 export default Home;
+
