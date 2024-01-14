@@ -66,7 +66,7 @@ function handleSaveChanges() {
     salary: salary
   };
 
-  fetch(`https://jobquest-e7ho.onrender.com/jobs/${jobs.id}`, {
+  fetch(`http://localhost:3000/jobs/${jobs.id}`, {
     method: "PATCH",
     headers: { "content-type": "application/json" },
     body: JSON.stringify(updatedJob),

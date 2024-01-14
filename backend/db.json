@@ -1,0 +1,147 @@
+{
+  "jobs": [
+      {
+          "job_title": "SE II",
+          "company": "Google",
+          "work_location": "In Person 🏢",
+          "job_description": "https://www.google.com/about/careers/applications/jobs/results/110720748940600006-staff-software-engineer-large-language-models",
+          "date_applied": "2023-12-14",
+          "status": "Rejected ❌",
+          "notes": "Must wait 6 months to apply again.",
+          "favorite": true,
+          "salary": "150,000",
+          "id": 4,
+          "user_id": 1
+      },
+      {
+          "job_title": "Marketing Specialist",
+          "company": "MoMA",
+          "work_location": "Hybrid 🖥",
+          "job_description": "https://recruiting.ultipro.com/MUS1002MOMA/JobBoard/9dbfa465-a36a-46c3-b31e-4929830ab266/OpportunityDetail?opportunityId=5abec346-835a-412c-a06e-c267ad111909",
+          "date_applied": "2023-12-14",
+          "status": "Applied 💼",
+          "notes": "Social media focus. Need to learn art.",
+          "favorite": true,
+          "salary": "80,000",
+          "id": 7,
+          "user_id": 1
+      },
+      {
+          "job_title": "Back-End Dev",
+          "company": "Google",
+          "work_location": "In Person 🏢",
+          "job_description": "https://www.google.com/about/careers/applications/jobs/results/106847000630043334-global-partner-gtm-leader-aiml-google-cloud?hl=_fr&page=4",
+          "date_applied": "2023-12-15",
+          "status": "Applied 💼",
+          "notes": "Connected with Recruiter on LinkedIn.",
+          "favorite": false,
+          "salary": "200,000",
+          "id": 8,
+          "user_id": 1
+      },
+      {
+          "job_title": "Front-End Dev",
+          "company": "Lyft",
+          "work_location": "Remote 🏠",
+          "job_description": "https://app.careerpuck.com/job-board/lyft/job/6895506002?gh_jid=6895506002",
+          "date_applied": "2023-12-28",
+          "status": "Interview complete ✅",
+          "notes": "Thank you email sent. Waiting for offer.",
+          "favorite": false,
+          "salary": "145,000",
+          "id": 9,
+          "user_id": 2
+      },
+      {
+          "job_title": "SE Internship",
+          "company": "Meta",
+          "work_location": "Hybrid 🖥",
+          "job_description": "https://www.metacareers.com/jobs/999489031322161/",
+          "date_applied": "2023-01-23",
+          "status": "Interview scheduled 🗓",
+          "notes": "Study algorithms. Connected with Flatiron alum working on my future team.",
+          "favorite": true,
+          "salary": "120,000",
+          "id": 10,
+          "user_id": 2
+      }
+  ],
+  "blogs": [
+      {
+          "author": "Isaiah Hankel",
+          "title": "A Five-Week Guide to Getting a Job You Want",
+          "link": "https://hbr.org/2021/03/a-five-week-guide-to-getting-a-job",
+          "image": "https://www.bu.edu/files/2022/03/class-of-2021-Illustration-100.jpg",
+          "id": 1,
+          "user_id": 1
+      },
+      {
+          "author": "Wasim Hajjiri",
+          "title": "How To Land A Job Through Networking",
+          "link": "https://www.forbes.com/sites/forbescoachescouncil/2021/08/12/how-to-land-a-job-through-networking/?sh=be21e6f37a5e",
+          "image": "https://imageio.forbes.com/specials-images/imageserve/60412e944e8d66c34eaf14ee/Business-social-distance/960x0.jpg?format=jpg&width=1440",
+          "id": 2,
+          "user_id": 2
+      },
+      {
+          "author": "Amy Gallo",
+          "title": "How to Write a Résumé That Stands Out",
+          "link": "https://hbr.org/2014/12/how-to-write-a-resume-that-stands-out?utm_medium=paidsearch&utm_source=google&utm_campaign=domcontent&utm_term=Non-Brand&tpcc=paidsearch.google.dsacontent&gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8TOd5NC8iLXUTh7up9yhdTAowp0JmwcfdVs3nrNCg-NYr1ilIDhlkwaAoYbEALw_wcB",
+          "image": "https://www.personalfinanceforbeginners.com/wp-content/uploads/2020/09/create-resume-stands-out.jpg",
+          "id": 3,
+          "user_id": 2
+      },
+      {
+          "author": "Indeed Editorial Team",
+          "title": "11 Types of Job-Hunting Strategies That you Need to Know",
+          "link": "https://www.indeed.com/career-advice/finding-a-job/job-hunting",
+          "image": "https://images.ctfassets.net/pdf29us7flmy/1QxciPOW9jJtSUYwYiJvKh/a7991c69302cb72262a43d51b7b6e00e/XuUJHMXc.png?w=720&q=100&fm=jpg",
+          "id": 4,
+          "user_id": 1
+      },
+      {
+          "author": "Jack Kelly",
+          "title": "How To Get Started Finding A New Job",
+          "link": "https://www.forbes.com/sites/jackkelly/2023/09/11/how-to-find-a-new-job/?sh=1739b1a51b8b",
+          "image": "https://images.ctfassets.net/pdf29us7flmy/4giCnLyCw4I0SdFLGaps0L/847f7c0bcc5d856b352112d9223ca850/McHHSZKQ.png?w=720&q=100&fm=jpg",
+          "id": 5,
+          "user_id": 1
+      },
+      {
+          "author": "Utkarsh Amitabh",
+          "title": "The Right Way to Make a Big Career Transition",
+          "link": "https://hbr.org/2021/07/the-right-way-to-make-a-big-career-transition",
+          "image": "https://images.ctfassets.net/pdf29us7flmy/1gePWfiNwIOtDZ8rADjFHH/4d062567da4c694ba4295e80fd681cfd/epaOUSXr.png?w=720&q=100&fm=jpg",
+          "id": 6,
+          "user_id": 1
+      },
+      {
+          "author": "Coursera Team",
+          "title": "How to Prepare for a Career Change: Step-By-Step Guide",
+          "link": "https://www.coursera.org/articles/career-change",
+          "image": "https://hbr.org/resources/images/article_assets/2021/11/A_Nov21_24_1297460141-01.jpg",
+          "id": 7,
+          "user_id": 2
+      },
+      {
+          "author": "Coursera Team",
+          "title": "Try Applying to a Job, Even If You Don`t Meet All Criteria",
+          "link": "https://hbr.org/2022/07/apply-to-a-job-even-if-you-dont-meet-all-criteria",
+          "image": "https://hbr.org/resources/images/article_assets/2022/07/A_July22_21_1175848946-1024x576.jpg",
+          "id": 8,
+          "user_id": 2
+      }
+  ],
+  "users": [
+      {
+          "first_name": "John",
+          "last_name": "Doe",
+          "password_hash": "123"
+      },
+      {
+          "first_name": "Jane",
+          "last_name": "Doe",
+          "password_hash": "123"
+      }
+  ]
+}
