@@ -23,6 +23,15 @@ db.init_app(app)
 def index():
     return "job backend"
 
+@app.get("/user/<int:id>/jobs")
+def get_jobs_for_user(id):
+    user = db.session.get(User, id)
+    return [job.to_dict(rules=['-user', '-user_id']) for job in user.jobs]
+
+@app.get("/user/<int:id>/blogs")
+def get_blogs_for_user(id):
+    user = db.session.get(User, id)
+    return [blog.to_dict(rules=['-user', '-user_id']) for blog in user.blogs]
 
 if __name__ == "__main__":
     app.run(port=5555, debug=True)

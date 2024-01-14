@@ -34,6 +34,7 @@ class Job(db.Model, SerializerMixin):
 
 class User(db.Model, SerializerMixin):
     __tablename__ = "user_table"
+    serialize_rules = ["-jobs.user", "-blogs.user"]
     id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String, nullable=False)
     last_name = db.Column(db.String, nullable=False)
