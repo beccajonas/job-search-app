@@ -18,7 +18,8 @@ if __name__ == "__main__":
             u = User(
                 first_name=user.get("first_name"),
                 last_name=user.get("last_name"),
-                password_hash=bcrypt.generate_password_hash(user.get('password_hash'))
+                user_name=user.get("user_name"),
+                password=bcrypt.generate_password_hash(user.get('password'))
             )
             user_list.append(u)
         db.session.add_all(user_list)

@@ -38,7 +38,8 @@ class User(db.Model, SerializerMixin):
     id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String, nullable=False)
     last_name = db.Column(db.String, nullable=False)
-    password_hash = db.Column(db.String, nullable=False)
+    user_name = db.Column(db.String, nullable=False)
+    password = db.Column(db.String, nullable=False)
     
     jobs = db.relationship("Job", back_populates="user")
     blogs = db.relationship("Blog", back_populates="user")
