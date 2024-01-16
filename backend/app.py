@@ -6,7 +6,6 @@ from models import db, User, Job, Blog
 from flask_cors import CORS
 from dotenv import dotenv_values
 from flask_bcrypt import Bcrypt, check_password_hash
-from flask_session import Session
 
 config = dotenv_values(".env")
 
@@ -19,7 +18,7 @@ app.json.compact = False
 bcrypt = Bcrypt(app)
 migrate = Migrate(app, db)
 app.config['SESSION_TYPE'] = 'filesystem'
-Session(app)
+
 
 db.init_app(app)
 
