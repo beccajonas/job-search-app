@@ -37,7 +37,7 @@ def get_blogs_for_user(id):
     user = db.session.get(User, id)
     return [blog.to_dict(rules=['-user', '-user_id']) for blog in user.blogs]
 
-@app.get('/check_session')
+@app.get('/api/check_session')
 def check_session():
     user = db.session.get(User, session.get('user_id'))
     print(f'check session {session.get("user_id")}')
@@ -47,18 +47,16 @@ def check_session():
         return {"message": "No user logged in"}, 401
 
 #Login / Logout
-@app.post('/login')
+@app.post('/api/login')
 def login():
     data = request.json
-    print(data)
-    # print(f'Attempting login for user: {data.get("user_name")} with password: {data.get("password")}')
+    print(f'Attempting login for user: {data.get("user_name")} with password: {data.get("password")}')
 
     user = User.query.filter(User.user_name == data.get('user_name')).first()
 
     if user and bcrypt.check_password_hash(user.password, data.get('password')):
         print(f'Before setting user_id: {session.get("user_id")}')
         session['user_id'] = user.id
-        session.permanent = True  # Set session to permanent
         print(f'After setting user_id: {session.get("user_id")}')
         print('success')
         return user.to_dict(), 200
