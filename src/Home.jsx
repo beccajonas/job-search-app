@@ -25,7 +25,7 @@ useEffect(() => {
       console.log('User state:', data);
     })
     .catch((error) => console.error('Error in useEffect:', error));
-}, []);
+}, [setUser]);
 
 
 /**********************
